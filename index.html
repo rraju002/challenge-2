@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rhowen Raju Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="https://lh3.googleusercontent.com/wvO61AWcFRA8WQdpdBy8V5qsvA2NHX7K5IxMdsw7DKiap-mbLpF-RqN8E1iOWahCaa1PUNWbJkRPhZb30tkrtlnPGeqiutYfjSx5R1skcpceUDzpOfEyFDs_zln6L6aPIHo1lZW__FQecIKTu2Ed6Kofufd5MIgRzpLA8YQcJSBC6CEbUmm-Jcu9R3-qSlBa1r-_Qv-V6UMNDOxdLEVG9S1ddguaYqlzs8NHloVcarLLmDb0vxQKJl48dJPn5RINE4SArpZ2flOk3dp-oTsQGdo1YzFdXLK-xaHnuSwKPbYwtY0vklRDVxZ6BIyBuuOdai1CaRTrjpOLr-sUZbvSFJhUNJviqksazQZ3UOLm5wtBqxdn_l9cAz9qfaWz7uKUbi_89n8lhCONwKfNdlv0Ak9Oj-st8bKxMm0yHTdB-nGRapv1TDprRJO5O7tF4ylhkoq87gV7Cx9SiJTi64MwXJcwffk9EPno16Er8TgHCSiAGksAyq4sU3e-FqKWtI3KnFNLokq3KjNRfw1xK6OFRJCOGONdz9zKHsD3LvSO0BsMyr6Fv2GoglT6uLv-WwuXxCemlWkhMawcLsEWyekRbDS6SjMn7AhgMDnvEWH2djZ4ev7XI9t0Nhkh07Zj-QbGa7x83eksO2gp-mCHYveyVrGxbes76oazBwp11IUC09BHzD9Kj3O53TAx9cDfyVvz2oP9E5_V_ImiOHREbK-c8Av3vGuxu6nUyhRLnY7es1vO7fOK9oA5GzXuQA=w793-h991-no?authuser=0" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Rhowen Raju.</h1>
+    <p>A Creative Above...</p>
+    <img src="https://lh3.googleusercontent.com/cFxa3O9zsDK9Lyv4-061_0ImCjqXHs1_1H44zjK3b40Qjcgh-VdiRfGI-5spAkwXkQRrUDTA114p3IY00umfWU1WZbWwyXQAUKGSQQoFJ-OYpsCUAag1vC6N9MdsSfC0QfDixfWc75FghnupcRq2e6Ezi2l9AhNWr0YLZHIcSrZp0Ul2MUjuUiQhdnAhaEM0ldwc5pl7LTF2AiwKVCyJT2eGHPIsdgPe5TE23v6aJ-11wiQTwgpSr643VNbBIHRDAYXQzZa1De7Gg1ZuBHe9w-Xt0gdlaHR0jDS4OzrHXtMREePev8WnzhAfrTwZyhdbEHgo3T93lnvfwUcA7PX5lJcYhWUf-QsAgn8Oy2tkadhaG0669NGl5gzjDQp4xW0acAC9KxaGb8T-I7uWL-97okg6kHojOMeYsy-UPLfqAwB2wrGgSzlaosQbrZJ3pWR-xRNXH6GgWRKkGccJRo4xWk0EWy_Oh8m_YpPVGW9wXoorm1augC4oUAkXDDYodJymloaO8WpqCCSLFEpPBqqWhSoj8ILQvhvXrXE8FbC4Sw5CVwIQXBbJCwxDZdrt35it7EpiAo2A9qgo0glDndAuXYemdWMYveieX_pmHUkvYcwauGPVXhfM7DG55JLiWkmC4_Iq61Yq3KJ23pWsxZSfmytWtKBTqeQMiXA0VVQywfSlfltdQVJ7jHy4hvaWd1SmpcrUMWFZZG4THBeO9R57oDW6sgfKb-FcPtuFAmpZRMlSeE090e6xGlbWZg=w1092-h1364-no?authuser=0" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="text-light-grey">About Me</h2>
+    <hr style="width:200px" class="opacity">
+    <p>Hello my name is Rhowen Raju, an engineering creative dedicated to giving my clients the product they envisioned. 
+        <p>Summary:</p>
+        <ul>
+            <li>Results-oriented leader with a goal to drive innovation and improve the lives of others </li>
+            <li>Strong management skills, organizing social events and day to day tasks for UC Riverside’s Men’s Basketball</li>
+            <li>Highly motivated person who takes pride in individual and team performance, especially in high pressure situations</li>
+            <li>Extremely competitive individual who strives to be the best version of themselves on a day to day basis</li>
+        </ul>
+        <h3 class="w3-padding-16 w3-text-light-grey">My Talents</h3>
+        <p class="w3-wide">Photography</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Rate</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Creative Counseling</li>
+          <li class="w3-padding-16">Bi-weekly Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 100</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Creative Counseling</li>
+          <li class="w3-padding-16">Product Endorsement</li>
+          <li class="w3-padding-16"> Daily Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 250</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="https://media.gq.com/photos/614b3931ad83201a3a864549/16:9/w_2560%2Cc_limit/will-smith-gq-cover-november-2021-a.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Will Smith.</span> CEO of Fresh Prince LLC.</p>
+    <p>"Rhowen saved us from a creative nightmare, bringing much needed light, energy and creativity to our project!"</p><br>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Work</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://lh3.googleusercontent.com/8xBvgLxdVv62WW6pUKAWf4u9IoXFY2D2Ov4Rp4EAGJ_u4duU0_ORYXCeCavt_-VKfWOZ59v3fYzyg0Nubxt4Nc-AUT7ra1YGc7HsBbR7BJcBu4QowiIfRzq7-NI1eoGu4-AkNDnBqaCQVYNtyFDMzDTndbR0xdB0mW1IDLOPwwooFBIBaUSt7z77mV3fr_TmfBbBMocPhBbdfSkM_WYluZS93nDYxhkMs21iwmlfY4_ytv3RGVHImBmqFc4KWMROGLNoIDps4LaVB-kSMtn0WIt4r3cQy7s_Gg6Sx6ADNNp_7nxzeSRNpp-enPTGbm84P3olKxXs-yirqGCkAHMgdyRMPF4y1ljwJgVe4Z2YxFAcNml98w3OO8IMaNN4QkrugLWFiuW7MOz_ErkqeiRONtdvNrUBxIH1mLMiUXy-j3e3UJR3UyAGOJ4vCXvqdckIpluYghiXw7a9jnRsetR6pWuWOcSQ59y4ZbOBJAUsHXFJNHxO4kynbERVuLGRKgYc2LhPOcBGMpxkPC08O77BaoC0_4miUGRMG9WoNrtKHm0Hcg0Paa9xloMv-uV-bNXgM0cNTF4VslaQiaZnFsnUIoD-ecy9j4Igacfn62qR6d7pFd39PS7oz_RXzANCo_OkMrDh81nbWXxNJH5AA6b4MuWI6SXkiyIYr4DDJgVge-l24vtdHpBLiNDsz2eoWFgQKwWqtCnrPLlSXVrs_e3vCI3IqFlAdLo8wxr1oDUnvTXRF1KMF7C9gHcD1g=w724-h1086-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/Loha_ucPt1MQkFjk5Fep9jTJ6S_4WQS-2nugJBFmVF3msTmq0dIJZm92xINnYfqesa3ms7tyw5qjq7qwMHjJbcukNNiBl5OS1DzGOZ6Nz6mGghkK_ftu8cWw4K_HrLE2us-XzhumsN-QPCkKc1VTEzCQovtZjdy4LWsdv4r08y5LgObB_fc8BLxRqGzoWk2VL7vxxIRKVBeRHonHbHtWb34Vw8apwzxsW2zfCl4444BEmAnW_U9SZRtlQCrgFySD6hVQLUCWna2z7rrRpgeegJHaUOQXD4ps7Zw2utlCyI_GvGuM5yfbPwWgkGENWUaNjybOYNaENqETMOUm1B8EIZQ1pc_cYh4o_kujpm9S8WTE62tlAUxs0Ge9c54dIs2y3n-ECVPIQUdKvemnN-fRB3EjBFv8ONCfJlQ2A9ruAUtMz8Jl8IdYXBUNORk35plujRhS1jcIsadgxqSSFUFZcUAAbauWFVsPg58PEhv8-HidT57a06lTYmRwfPmHQX4-rRy0_Hun26UwuDdrXUYObN15zNqmYqUTOqGkKRtTxIxOJBUgMXrKFU9SmCHzh1TvP6KaffDDTpV6bQYBn_1AY3ccMcd39tLvNnIsps0Ml6J5faUqNm8GX67fHLBu3GJYer1YhxD37JEKp8aZUVeeZQ5YV2z0JJJ8qyKAWf87Iu9O7pcQxw3EalJLE-JXyTbpaUGwyEhBbwIgxC5a9lx2d_otH8qCeABOjB73aDO4FoqOT1qf0PsFZYw5kg=w793-h991-no?authuser=0" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://lh3.googleusercontent.com/eu3mLUMh6zJDdsdwmPs3bDOQsnhEcRNJtC2wLYHvrOXI8H_u5IPz3nf_1jz6pC2C0ZyD9eJ9lHusu1uP4ey_CUOZr09LR1WtR5YEFKdl_4lITg-6Votgt4cw6VaznbxMBawexALgKFNaItzqB1iurzOi-16gR7AvyUtxV2G0LEdgLP4sRtvvnDeLvOg3kedtLU-BWkoJUkgAzCEea6OT7DqtTJFm_KP0ao3rpeHwUuSTSqbLEkhZFlOwi05YAPop43t03Fznu0R-S5SaKosj5HDEAbUCgSbpNtsVsweL4AA-xOShbyrBlnFS6yx2ylu9eb8J_M_SkdJ2GK5bRv-W_8fxmml8x4xM0LYVG72H7xMLB1RrYET-Al0ByeuboCgY_qNRghlz0Yt1jx5er00WvC8ziZ-dwPSiZZnfxnAwkSMP-0tMV95v5L9OngXqr6LWEA7D8710NrA3vgviFEZdQN9iNOaNStA4vt-pXAib-N2wqB6cODHPMEBlomYBHUTBKNgcPNXVipELqU0HCDv6WElv3xAzQ5XOPCkqVjNCrzRswhwRy7tVZlYBONppt8mFg85VsJTk3wpMa6OYw48jpfM-VzUeLMRMXFUiA8hpSeMMi_NWdB6Zv8Oqfdrd-C2r_Oa8UKCprcDgASgVg4AZR0e-m8LtfpsndwW2FnDEqczdVLSchMxXlLgBf1ScOdrhVMfOejIvLybY3maIlm44BRbWak0k6afG7URyEQPjc8Vn5DKuy8YCY5FRbQ=w768-h1024-no?authuser=0" style="width:100%">
+        <img src="https://lh3.googleusercontent.com/7ECWmIOUKQXthVzNHq6JQ-9LE1Wxu9DRHOmrhvkyvIEXlbpuDjikLhrCHbNBbBJ7gChH7u1D_9SeQP3O3_ra2cF1oC2NBcN_3owEKLVPVn-sbAFqYhXeNKyEGLpMBk83B-gXp9yYmCeGJ4-BUfm8wHJNIqVoDdzXtqSI7T4KMrb8sL8-EqPuE5h4trmbrKZVw0ZARVWOR_LxvnI8k-tf5BtJouX5KK9GgMinzWZAFJiGbpvGwXINohQH5WJLKeGdhiXgwqVG00vLNMW6Crx30xT2qmnvz5qMEvgtiCQ8Geo2mUv7L5XjS6G7GgxNGMjTKnZ8Ewr7Qsh0C1kj9A83CFgDTM2PythqfRw0WqdYGPGqBjtRx94CquO8BEMGVhp8aq2TpbrjJ_7s01-6yhDnsjVUJ6orAkYFtOpQxXLLwhGzljTN1a0qn5QXyuIoNp84UIpAiS-dQQYRclrWmy0jgkbjH9OX0wZCyAbTxENxvjTnnSu-aMNmIKr50p0sYFyN8_Kuq3mDqjIF0vL7VPPgBG5KNCbMsNRRyTJmS9TLv5D25C0l-mbs6CV6Nm5BIE3LgnY25aVecnwjnxIl7uvcuHscDBdj_N8FspfOZjVEIBalOSomm1ag8QHGmzzPc-f2U3wQcL0P3wk4AX06AjRUE93vL8mjYZPwd6oP2sa0UK1cFPiXUDqv9g2YLE9BuM24g6tTlNCL-3c1xQaqZo3Mgm4GYfbMIz4hKY33uQeEoJAG_PN_FAj94X43zw=w2542-h1320-no?authuser=0" style="width:100%">
+        
+      </div>
+
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> California, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 916-337-7258</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: rhowenraju01@gmail.com</p>
+    </div><br>
+      </p>
+    </form>
+  </div>
+  
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <i class="fa fa-instagram w3-hover-opacity" href="https://instagram.com/sactown_baller?igshid=YmMyMTA2M2Y="></i> 
+  <a href="https://instagram.com/sactown_baller?igshid=YmMyMTA2M2Y=" target="_blank">Follow Me!</a> 
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <a href="https://twitter.com/rhowen_13?s=21&t=pLrIDezp8-Kw2VukZC6mJQ" target="_blank">Follow Me!</a> 
+</footer>
+</div>
+
+</body>
+</html>
+
