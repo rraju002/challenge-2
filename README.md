@@ -28,9 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 # Mock-Up
 The following animation shows the web application's appearance and functionality:
 
-<div>
-    <img src="" width="400px"/> 
-</div>
+img/Untitled_ Aug 20, 2022 12_12 PM.gif
 
 # Technologies used
 HTML
