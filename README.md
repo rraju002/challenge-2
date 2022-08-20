@@ -28,8 +28,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 # Mock-Up
 The following animation shows the web application's appearance and functionality:
 <div>
-    ![Alt Text](<iframe src="https://drive.google.com/file/d/1dnvHk8B0b0O90AnnIo8lY0XpwEcaIELO/preview" width="640" height="480"></iframe>)
-</div>
+    ![Alt Text](<iframe src="https://drive.google.com/file/d/1dnvHk8B0b0O90AnnIo8lY0XpwEcaIELO/preview")
+div>
 
 # Technologies used
 HTML
