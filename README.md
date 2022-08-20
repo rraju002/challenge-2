@@ -27,8 +27,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # Mock-Up
 The following animation shows the web application's appearance and functionality:
-
-<iframe src="https://drive.google.com/file/d/1dnvHk8B0b0O90AnnIo8lY0XpwEcaIELO/preview" width="640" height="480"></iframe>
+<div>
+    <img src="https://lh3.googleusercontent.com/cFxa3O9zsDK9Lyv4-061_0ImCjqXHs1_1H44zjK3b40Qjcgh-VdiRfGI-5spAkwXkQRrUDTA114p3IY00umfWU1WZbWwyXQAUKGSQQoFJ-OYpsCUAag1vC6N9MdsSfC0QfDixfWc75FghnupcRq2e6Ezi2l9AhNWr0YLZHIcSrZp0Ul2MUjuUiQhdnAhaEM0ldwc5pl7LTF2AiwKVCyJT2eGHPIsdgPe5TE23v6aJ-11wiQTwgpSr643VNbBIHRDAYXQzZa1De7Gg1ZuBHe9w-Xt0gdlaHR0jDS4OzrHXtMREePev8WnzhAfrTwZyhdbEHgo3T93lnvfwUcA7PX5lJcYhWUf-QsAgn8Oy2tkadhaG0669NGl5gzjDQp4xW0acAC9KxaGb8T-I7uWL-97okg6kHojOMeYsy-UPLfqAwB2wrGgSzlaosQbrZJ3pWR-xRNXH6GgWRKkGccJRo4xWk0EWy_Oh8m_YpPVGW9wXoorm1augC4oUAkXDDYodJymloaO8WpqCCSLFEpPBqqWhSoj8ILQvhvXrXE8FbC4Sw5CVwIQXBbJCwxDZdrt35it7EpiAo2A9qgo0glDndAuXYemdWMYveieX_pmHUkvYcwauGPVXhfM7DG55JLiWkmC4_Iq61Yq3KJ23pWsxZSfmytWtKBTqeQMiXA0VVQywfSlfltdQVJ7jHy4hvaWd1SmpcrUMWFZZG4THBeO9R57oDW6sgfKb-FcPtuFAmpZRMlSeE090e6xGlbWZg=w1092-h1364-no?authuser=0" width="400px"/> 
+</div>
 
 # Technologies used
 HTML
