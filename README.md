@@ -27,7 +27,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # Mock-Up
 The following animation shows the web application's appearance and functionality:
-    <img width="1268" alt="Screen Shot 2022-08-20 at 12 44 47 PM" src="https://user-images.githubusercontent.com/105147266/185763752-6c3c1087-891d-42ac-bb2b-6d6e7fe46662.png">
+    ![Untitled_ Aug 20, 2022 12_12 PM (2)](https://user-images.githubusercontent.com/105147266/185763777-2a51acb4-ab0b-40b9-93d1-ed0cc270b379.gif)
 
 
 # Technologies used
