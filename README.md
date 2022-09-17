@@ -27,7 +27,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # Mock-Up
 The following animation shows the web application's appearance and functionality:
-    ![Alt Text]("https://drive.google.com/file/d/1dnvHk8B0b0O90AnnIo8lY0XpwEcaIELO/preview")
+  
+![Untitled_ Aug 20, 2022 12_12 PM (3)](https://user-images.githubusercontent.com/105147266/185763803-0f5ba9f4-c716-4cec-a07f-bdb1e0008031.gif)
+
 
 # Technologies used
 HTML
